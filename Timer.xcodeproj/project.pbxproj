@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		A45B32FD2832453300C9B6F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45B32FC2832453300C9B6F5 /* AppDelegate.swift */; };
 		A45B32FF2832453300C9B6F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45B32FE2832453300C9B6F5 /* SceneDelegate.swift */; };
-		A45B33012832453300C9B6F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45B33002832453300C9B6F5 /* ViewController.swift */; };
 		A45B33042832453300C9B6F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A45B33022832453300C9B6F5 /* Main.storyboard */; };
 		A45B33062832453400C9B6F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A45B33052832453400C9B6F5 /* Assets.xcassets */; };
 		A45B33092832453400C9B6F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A45B33072832453400C9B6F5 /* LaunchScreen.storyboard */; };
@@ -19,6 +18,10 @@
 		A45B331728327ACC00C9B6F5 /* History2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45B331628327ACC00C9B6F5 /* History2ViewController.swift */; };
 		A45B331928327AE600C9B6F5 /* Timer2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45B331828327AE600C9B6F5 /* Timer2ViewController.swift */; };
 		A45B331B28327AF800C9B6F5 /* Timer3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45B331A28327AF800C9B6F5 /* Timer3ViewController.swift */; };
+		A45B331D2832825800C9B6F5 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45B331C2832825800C9B6F5 /* TabBarController.swift */; };
+		A45B331F2833C7DC00C9B6F5 /* Timers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45B331E2833C7DC00C9B6F5 /* Timers.swift */; };
+		A45B33222835215F00C9B6F5 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45B33202835215E00C9B6F5 /* TableViewCell.swift */; };
+		A45B33232835215F00C9B6F5 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A45B33212835215E00C9B6F5 /* TableViewCell.xib */; };
 		B8AFC36D7D983A4C5FADAF27 /* Pods_Timer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D37BEBCF4225289B6510E505 /* Pods_Timer.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,7 +30,6 @@
 		A45B32F92832453300C9B6F5 /* Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A45B32FC2832453300C9B6F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A45B32FE2832453300C9B6F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A45B33002832453300C9B6F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A45B33032832453300C9B6F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A45B33052832453400C9B6F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A45B33082832453400C9B6F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +40,10 @@
 		A45B331628327ACC00C9B6F5 /* History2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History2ViewController.swift; sourceTree = "<group>"; };
 		A45B331828327AE600C9B6F5 /* Timer2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer2ViewController.swift; sourceTree = "<group>"; };
 		A45B331A28327AF800C9B6F5 /* Timer3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer3ViewController.swift; sourceTree = "<group>"; };
+		A45B331C2832825800C9B6F5 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		A45B331E2833C7DC00C9B6F5 /* Timers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timers.swift; sourceTree = "<group>"; };
+		A45B33202835215E00C9B6F5 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		A45B33212835215E00C9B6F5 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		D37BEBCF4225289B6510E505 /* Pods_Timer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Timer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D93902CF9AE5A5CB90FFDBCE /* Pods-Timer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Timer.debug.xcconfig"; path = "Target Support Files/Pods-Timer/Pods-Timer.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,7 +66,6 @@
 				D93902CF9AE5A5CB90FFDBCE /* Pods-Timer.debug.xcconfig */,
 				672C3875DA8435D5E37FEE4F /* Pods-Timer.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -87,13 +92,16 @@
 			children = (
 				A45B32FC2832453300C9B6F5 /* AppDelegate.swift */,
 				A45B32FE2832453300C9B6F5 /* SceneDelegate.swift */,
-				A45B33002832453300C9B6F5 /* ViewController.swift */,
 				A45B331228327A3000C9B6F5 /* TimerViewController.swift */,
+				A45B331C2832825800C9B6F5 /* TabBarController.swift */,
 				A45B331828327AE600C9B6F5 /* Timer2ViewController.swift */,
 				A45B331A28327AF800C9B6F5 /* Timer3ViewController.swift */,
 				A45B331428327A4600C9B6F5 /* SettingViewController.swift */,
 				A45B331028327A1B00C9B6F5 /* HistoryViewController.swift */,
 				A45B331628327ACC00C9B6F5 /* History2ViewController.swift */,
+				A45B331E2833C7DC00C9B6F5 /* Timers.swift */,
+				A45B33202835215E00C9B6F5 /* TableViewCell.swift */,
+				A45B33212835215E00C9B6F5 /* TableViewCell.xib */,
 				A45B33022832453300C9B6F5 /* Main.storyboard */,
 				A45B33052832453400C9B6F5 /* Assets.xcassets */,
 				A45B33072832453400C9B6F5 /* LaunchScreen.storyboard */,
@@ -171,6 +179,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A45B33092832453400C9B6F5 /* LaunchScreen.storyboard in Resources */,
+				A45B33232835215F00C9B6F5 /* TableViewCell.xib in Resources */,
 				A45B33062832453400C9B6F5 /* Assets.xcassets in Resources */,
 				A45B33042832453300C9B6F5 /* Main.storyboard in Resources */,
 			);
@@ -228,9 +237,11 @@
 				A45B331328327A3000C9B6F5 /* TimerViewController.swift in Sources */,
 				A45B331728327ACC00C9B6F5 /* History2ViewController.swift in Sources */,
 				A45B331B28327AF800C9B6F5 /* Timer3ViewController.swift in Sources */,
-				A45B33012832453300C9B6F5 /* ViewController.swift in Sources */,
+				A45B331D2832825800C9B6F5 /* TabBarController.swift in Sources */,
 				A45B32FD2832453300C9B6F5 /* AppDelegate.swift in Sources */,
 				A45B32FF2832453300C9B6F5 /* SceneDelegate.swift in Sources */,
+				A45B33222835215F00C9B6F5 /* TableViewCell.swift in Sources */,
+				A45B331F2833C7DC00C9B6F5 /* Timers.swift in Sources */,
 				A45B331128327A1B00C9B6F5 /* HistoryViewController.swift in Sources */,
 				A45B331528327A4700C9B6F5 /* SettingViewController.swift in Sources */,
 				A45B331928327AE600C9B6F5 /* Timer2ViewController.swift in Sources */,
